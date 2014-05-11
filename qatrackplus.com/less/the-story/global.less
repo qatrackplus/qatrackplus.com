@@ -1,0 +1,57 @@
+/* Global */
+/* -------------------------------------------------- */
+
+body {
+  font-weight: 300;
+}
+
+body, textarea:focus, input:focus{
+    outline: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/* Remove horizontal scrollbar */
+
+html {
+  overflow-x: hidden;
+}
+
+/* Selection color */
+
+::selection {
+  background: @color-7;
+  color: #ffffff; 
+}
+
+::-moz-selection {
+  background: @color-7;
+  color: #ffffff;
+}
+
+/* Useful classes */
+
+.centered {
+  margin: 0 auto;
+  display:block;
+}
+
+.border {
+  border: 1px solid @border-color;
+}
+
+// Make all images responsive
+
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+ }
+
+
+.fade {
+  opacity: 0;
+  .transition(opacity .40s linear);
+  &.in {
+    opacity: 1;
+  }
+}

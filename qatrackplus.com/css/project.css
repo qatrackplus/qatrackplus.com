@@ -1,0 +1,10 @@
+.clients ul {
+    font-size: 17px;
+}
+.clients li {
+    height:111px;
+}
+
+.clients li:hover {
+    cursor: default;
+}

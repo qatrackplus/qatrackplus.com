@@ -1,0 +1,97 @@
+
+
+/* Buttons */
+
+.btn {
+  font-weight: 400;
+  color: @color-4;
+  border: 0;
+  .transition(background 0.6s);
+}
+
+.btn-centered {
+  width: 50%;
+  margin: 0 auto;
+  display: block;
+}
+
+
+/* Social Buttons */
+
+.social i {
+  .transition(color 0.6s);
+  font-size: 38px;
+  padding: 2px;
+  margin: 2px;
+  color: #F1F1F1;
+}
+
+.social i:hover {
+  color: @color-2;
+  text-decoration: none;
+}
+
+
+/* Play and zoom buttons */
+
+.btn-container {
+  font-size: 70px;
+  position: relative;
+  img {
+    z-index: 9;
+  }
+}
+
+.btn-play, .btn-map  {
+  color: @color-4;
+  position: absolute;
+  z-index: 10;
+}
+
+.btn-play {
+  top: 50%;
+  left: 50%;
+  width: 100px;
+  height: 100px;
+  margin: -50px 0 0 -50px;
+  i {
+    font-size: 100px;
+    opacity: 0.9;
+    padding: 5px 10px;
+    color: @color-4;
+    border-radius: 10px;
+    &:hover {color: #333; opacity: 1;}
+     .transition(color 0.6s);
+  }
+}
+
+
+/* Map button, including address */
+
+.btn-map {
+  margin: -35px 0 0 -35px;
+  top: 50%;
+  left: 50%;
+  opacity: 0.8;
+  color: @color-7;
+  i {
+    font-size: 62px;
+    .transition(color 0.6s);
+    &:hover {color: @color-2;};
+  }
+  div {
+    background: @color-1;
+    float: right;
+    padding: 5px;
+    .transition(background 0.6s);
+    &:hover {background: @color-2;};
+  }
+  width: 225px;
+  height: 70px;
+  font-size: 15px;
+  font-weight: 400;
+  .transition(background 0.6s);
+  &:hover {opacity:1; color: @color-7;}
+}
+
+

@@ -1,0 +1,151 @@
+// -------------------------
+// Variables
+// -------------------------
+
+
+// The Story colors - blue
+@color-1: #4BAAD3;
+@color-2: #3A9AC4;
+@color-3: darken(#F6FCFF, 2%);
+@color-4: #fff;
+@color-5: #010a0c;
+@color-6: #3083A7;
+@color-7: #000;
+
+// Import alternative colors, uncomment the one you want.
+// -------------------------
+// @import "colors/orange.less"; 
+// @import "colors/red.less"; 
+// @import "colors/green.less"; 
+// @import "colors/purple.less"; 
+// @import "colors/turquoise.less"; 
+
+// Brand colors
+// -------------------------
+@brand-primary:         #2b7797; 
+@brand-primary:         darken(@color-1, 15%); 
+@brand-success:         #4bd374;
+@brand-warning:         #d3b84b;
+@brand-danger:          #d3744b;
+@brand-info:           	#3083A7;
+
+
+// UI Colors
+@link-color-dark: @color-1;
+@navbar-color:  rgba(0,0,0, 0.8); // Navigation bar color.
+@border-color:  @color-2;
+@hr-border:   lighten(@color-1, 10%);
+@link-color:             @color-1;
+
+// Border radius
+// -------------------------
+@border-radius-base:             0px;
+@border-radius-large:            0px;
+@border-radius-small:            0px;
+
+// Buttons
+// ------------------------- 
+@padding-base-vertical: 10px;
+@btn-default-color:              #333;
+@btn-default-bg:                 @color-2;
+@btn-default-border:             #ccc;
+
+// Navbar
+// -------------------------
+
+// Basics of a navbar
+@navbar-height:                    40px;
+@navbar-default-color:             #fff;
+@navbar-default-bg:                @navbar-color;
+
+// Navbar links
+@navbar-default-link-color:                #fff;
+@navbar-default-link-hover-color:          #000;
+@navbar-default-link-hover-bg:             @color-1;
+@navbar-default-link-active-color:         #000;
+@navbar-default-link-active-bg:            @color-1;
+@navbar-default-link-disabled-color:       #ccc;
+@navbar-default-link-disabled-bg:          transparent;
+
+// Navbar brand label
+@navbar-default-brand-color:               @navbar-default-link-color;
+@navbar-default-brand-hover-color:         darken(@navbar-default-link-color, 10%);
+@navbar-default-brand-hover-bg:            transparent;
+
+// Navbar toggle
+@navbar-default-toggle-hover-bg:           transparent;
+@navbar-default-toggle-icon-bar-bg:        transparent;
+@navbar-default-toggle-border-color:       transparent;
+
+
+
+// Typography
+@sans-Font-Family:        Open Sans, Source Sans Pro, Helvetica, Arial, sans-serif;
+@font-family-base:  @sans-Font-Family;
+
+@font-size-base:          17px;
+@line-height-base: 1.6;
+
+@blockquote-small-color:      @gray-light;
+@blockquote-border-color:     @color-1;
+@page-header-border-color:    @gray-lighter;
+
+@headings-font-family:    @font-family-base;
+@headings-font-weight:    300;
+@headings-line-height:    1.3;
+
+// Carousel
+// ------------------------
+@carousel-text-shadow:                        0;
+@carousel-control-color:                      @color-4;
+@carousel-control-opacity:                    1;
+
+// Breadcrumbs
+// -------------------------
+@breadcrumb-bg:               @color-3;
+@breadcrumb-color:            #000;
+@breadcrumb-active-color:     #000;
+
+// Jumbotron
+// -------------------------
+@jumbotron-bg:                   @color-3;
+
+// Wells
+// -------------------------
+@well-bg:                     @color-3;
+
+// Badges
+// -------------------------
+@badge-color:                 #fff;
+@badge-link-hover-color:      #fff;
+@badge-bg:                    @gray-light;
+
+@badge-active-color:          @link-color;
+@badge-active-bg:             #fff;
+
+@badge-font-weight:           bold;
+@badge-line-height:           1;
+@badge-border-radius:         0px;
+
+// Form states and alerts
+// -------------------------
+
+@state-warning-text:             #c09853;
+@state-warning-bg:               lighten(@brand-warning, 30%);
+@state-warning-border:           @state-warning-bg;
+
+@state-danger-text:              #b94a48;
+@state-danger-bg:                lighten(@brand-danger, 30%);
+@state-danger-border:            @state-danger-bg;
+
+@state-success-text:             #468847;
+@state-success-bg:               lighten(@brand-success, 30%);
+@state-success-border:           @state-success-bg;
+
+@state-info-text:                #3a87ad;
+@state-info-bg:                  lighten(@brand-info, 30%);
+@state-info-border:              @state-info-bg;
+
+// Grid system
+// -------------------------
+@grid-gutter-width: 20px;
