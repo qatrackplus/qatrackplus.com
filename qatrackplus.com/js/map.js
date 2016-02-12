@@ -13,7 +13,7 @@ $(function(){
             location: {'lat': 45.5016889, 'lng': -73.567256}
         },
         {
-            name: "CHU de Liege, Liege, Belgium",
+            name: "CHU de Liège, Liège, Belgium",
             location: {'lat': 50.5744825, 'lng': 5.5696974}
         },
         {
@@ -23,6 +23,10 @@ $(function(){
         {
             name: "Hospital General Universitario Gregorio Marano, Madrid, Spain",
             location: {'lat': 40.4167754, 'lng': -3.7037902}
+        },
+        {
+            name: "Hospital Plató, Barcelona, Spain",
+            location: {'lat': 41.4013527, 'lng': 2.1421196}
         },
         {
             name: "Northwestern Medicine Chicago Proton Center, USA",
