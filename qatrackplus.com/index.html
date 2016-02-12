@@ -21,6 +21,9 @@
       <![endif]-->
   <meta http-equiv=X-UA-Compatible content=IE=edge>
 
+
+  <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />
+
     <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -153,18 +156,21 @@
     <div id="requirements" class="page">
 
         <div id="whos-using" class="clients color-1">
-            <div class="inner-page">
-                <h2 class="page-headline">Who's using QATrack+?</h2>
-            </div>
             <div class="inner-page row">
-                <p>
-                    QATrack+ was developed at the Ottawa Hospital Cancer Centre in Ottawa, Canada but is also
-                    being used in many other cancer centres around the world! A selection of some of the
-                    cancer centres using QATrack+ in their clinics include:
-                </p>
+              <h2 class="page-headline">Who's using QATrack+?</h2>
+              <p>
+                  QATrack+ was developed at the Ottawa Hospital Cancer Centre in Ottawa, Canada but is also
+                  being used in many other cancer centres around the world! A selection of some of the
+                  cancer centres using QATrack+ in their clinics are shown below.
+              </p>
+              <div class="col-sm-12">
+                <div id="map" style="height: 400px"></div>
+              </div>
+              <p>
 
                 <ul style="font-size:17px;" class="clients list-inline">
                     <li><i class="fa fa-globe"></i> Allan Blair Cancer Centre, Regina, <br/>Canada</li>
+                    <li><i class="fa fa-globe"></i> Auckland Radiation Oncology, Auckland, <br/>New Zealand</li>
                     <li><i class="fa fa-globe"></i> CHUM,<br/> Montreal, <br/>Canada</li>
                     <li><i class="fa fa-globe"></i> CHU de Liège,<br/> Liège, <br/>Belgium</li>
                     <li><i class="fa fa-globe"></i> Durham Regional Cancer Centre, Oshawa, Canada</li>
@@ -181,11 +187,12 @@
                     <li><i class="fa fa-globe"></i> Tom Baker <br/> Cancer Centre, Calgary, Canada</li>
                     <li><i class="fa fa-globe"></i> VUUMC, Amsterdam,&nbsp;The Netherlands</li>
                 </ul>
-                <p class="text-center">
+              </p>
+              <p class="text-center">
 
-                    <a href="mailto:randle.taylor@gmail.com" title="Send an email to let us know about your centre's use of QATrack+" class="text-danger">Get in touch</a> to
-                    have your centre added to this list!
-                </p>
+                  <a href="mailto:randle.taylor@gmail.com" title="Send an email to let us know about your centre's use of QATrack+" class="text-danger">Get in touch</a> to
+                  have your centre added to this list!
+              </p>
             </div>
         </div>
         <div id="getting-started" class="inner-page">
@@ -373,9 +380,12 @@
   <script src="js/lightbox.js"></script>
   <script src="js/bootstrap.js"></script>
   <script src="js/jquery.history.js"></script>
+  <script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
+
 
     <!-- Main js fail. -->
   <script src="js/main.js"></script>
+  <script src="js/map.js"></script>
 
 </body>
 </html>
