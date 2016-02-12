@@ -86,7 +86,7 @@ $(function(){
         var m = L.marker([loc.location.lat, loc.location.lng], {
             title: loc.name,
             alt: loc.name
-        }).bindPopup(loc.name).addTo(map);
+        }).bindPopup('<span class="color-4">'+loc.name+'</span>').addTo(map);
         markers.push(m);
     });
 
