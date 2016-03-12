@@ -1,3 +1,6 @@
+Note this is a personal clone of the qatrackplus.com repository.  The
+official repository can be found at https://bitbucket.org/qatrackplus/qatrackplus.com
+
 qatrackplus.com
 ===============
 
@@ -8,4 +11,4 @@ We would love to add your centre to our [list of users](http://qatrackplus.com/i
 Contact
 -------
 
-The website is currently maintained and hosted by [Randy Taylor](https://bitbucket.org/randlet/) (randle.taylor@gmail.com) 
+The website is currently maintained and hosted by [Randy Taylor](https://bitbucket.org/randlet/) (randle.taylor@gmail.com)
