@@ -17,6 +17,10 @@ $(function(){
             location: {'lat': 50.5744825, 'lng': 5.5696974}
         },
         {
+            name: "Dr. H. Bliss Murphy Cancer Centre, Newfoundland, Canada",
+            location: {'lat': 47.5719138, 'lng': -52.7441515}
+        },
+        {
             name: "Durham Regional Cancer Centre, Oshawa, Canada",
             location: {'lat': 43.9003755, 'lng': -78.8682023}
         },
