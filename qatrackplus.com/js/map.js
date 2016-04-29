@@ -41,6 +41,10 @@ $(function(){
             location: {'lat': 46.23824, 'lng': -63.13107040000001}
         },
         {
+            name: "Queen's NRI Hospital, Visakhapatnam, India",
+            location: {'lat': 17.7366519, 'lng': 83.3053694}
+        },
+        {
             name: "Saskatoon Cancer Center, Saskatoon, Canada",
             location: {'lat': 52.13277069999999, 'lng': -106.6405069}
         },
