@@ -25,6 +25,10 @@ $(function(){
             location: {'lat': 43.9003755, 'lng': -78.8682023}
         },
         {
+            name: "Grand River Regional Cancer Centre, Kitchener, Canada",
+            location: {'lat': 43.4564538, 'lng': -80.5123481}
+        },
+        {
             name: "Hospital General Universitario Gregorio Marano, Madrid, Spain",
             location: {'lat': 40.4167754, 'lng': -3.7037902}
         },
