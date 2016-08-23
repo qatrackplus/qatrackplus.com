@@ -81,6 +81,10 @@ $(function(){
             location: {'lat': 51.0486151, 'lng': -114.0708459}
         },
         {
+            name: 'University Hospital - St Ivan Rilski, Sofia, Bulgaria',
+            location: {'lat': 42.682311, 'lng': 23.3003315},
+        },
+        {
             name: "VUUMC, Amsterdam, The Netherlands",
             location: {'lat': 52.3367691, 'lng': 4.8593454}
         },
