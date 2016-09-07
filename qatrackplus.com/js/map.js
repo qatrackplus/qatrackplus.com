@@ -25,6 +25,10 @@ $(function(){
             location: {'lat': 43.9003755, 'lng': -78.8682023}
         },
         {
+            name: "Grand River Regional Cancer Centre, Kitchener, Canada",
+            location: {'lat': 43.4564538, 'lng': -80.5123481}
+        },
+        {
             name: "Hospital General Universitario Gregorio Marañón, Madrid, Spain",
             location: {'lat': 40.41925, 'lng': -3.67176}
         },
@@ -75,6 +79,10 @@ $(function(){
         {
             name: "Tom Baker  Cancer Centre, Calgary, Canada",
             location: {'lat': 51.0486151, 'lng': -114.0708459}
+        },
+        {
+            name: 'University Hospital - St Ivan Rilski, Sofia, Bulgaria',
+            location: {'lat': 42.682311, 'lng': 23.3003315},
         },
         {
             name: "VUUMC, Amsterdam, The Netherlands",
