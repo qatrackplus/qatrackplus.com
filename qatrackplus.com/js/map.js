@@ -21,8 +21,8 @@ $(function(){
             location: {'lat': 43.9003755, 'lng': -78.8682023}
         },
         {
-            name: "Hospital General Universitario Gregorio Marano, Madrid, Spain",
-            location: {'lat': 40.4167754, 'lng': -3.7037902}
+            name: "Hospital General Universitario Gregorio Marañón, Madrid, Spain",
+            location: {'lat': 40.41925, 'lng': -3.67176}
         },
         {
             name: "Hospital Plató, Barcelona, Spain",
