@@ -17,6 +17,10 @@ $(function(){
             location: {'lat': 50.5744825, 'lng': 5.5696974}
         },
         {
+            name: "Dr. H. Bliss Murphy Cancer Centre, Newfoundland, Canada",
+            location: {'lat': 47.5719138, 'lng': -52.7441515}
+        },
+        {
             name: "Durham Regional Cancer Centre, Oshawa, Canada",
             location: {'lat': 43.9003755, 'lng': -78.8682023}
         },
@@ -35,6 +39,10 @@ $(function(){
         {
             name: "PEI Cancer Treatment Centre, Charlottetown, Canada",
             location: {'lat': 46.23824, 'lng': -63.13107040000001}
+        },
+        {
+            name: "Queen's NRI Hospital, Visakhapatnam, India",
+            location: {'lat': 17.7366519, 'lng': 83.3053694}
         },
         {
             name: "Saskatoon Cancer Center, Saskatoon, Canada",
