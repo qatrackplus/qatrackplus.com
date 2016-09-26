@@ -49,6 +49,10 @@ $(function(){
             location: {'lat': 17.7366519, 'lng': 83.3053694}
         },
         {
+            name: "Royal Surrey County Hospital, Guildford, United Kingdom",
+            location: {'lat': 51.1785487, 'lng': -0.7192659}
+        },
+        {
             name: "Saskatoon Cancer Center, Saskatoon, Canada",
             location: {'lat': 52.13277069999999, 'lng': -106.6405069}
         },
