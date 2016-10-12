@@ -5,6 +5,10 @@ $(function(){
             location: {'lat': 50.4452112, 'lng': -104.6188944}
         },
         {
+            name: "BC Cancer Agency, Centre for the North, Prince George, B.C., Canada",
+            location: {'lat': 53.9135106, 'lng': -122.7660518}
+        },
+        {
             name: "Auckland Radiation Oncology, Auckland, New Zealand",
             location: {'lat': -36.8733367, 'lng': 174.7699663}
         },
