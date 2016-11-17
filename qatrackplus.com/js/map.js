@@ -21,6 +21,10 @@ $(function(){
             location: {'lat': 50.5744825, 'lng': 5.5696974}
         },
         {
+            name: "CHU de Sherbrooke, Sherbrooke, Canada",
+            location: {'lat': 45.4488134, 'lng': -71.8708584}
+        },
+        {
             name: "Dr. H. Bliss Murphy Cancer Centre, Newfoundland, Canada",
             location: {'lat': 47.5719138, 'lng': -52.7441515}
         },
