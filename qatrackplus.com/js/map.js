@@ -65,6 +65,10 @@ $(function(){
             location: {'lat': 52.13277069999999, 'lng': -106.6405069}
         },
         {
+            name: "Saint John Regional Hospital, Dept. of Radiation Oncology Saint John, New Brunswick, Canada",
+            location: {'lat': 45.302908, 'lng': -66.0876756}
+        },
+        {
             name: "South West Sydney Cancer Service, Australia",
             location: {'lat': -33.917507, 'lng': 150.920662}
         },
