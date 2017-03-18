@@ -101,6 +101,11 @@ $(function(){
             location: {'lat': 42.682311, 'lng': 23.3003315},
         },
         {
+            name: 'University Hospital Centre Zagreb, Zagreb, Croatia',
+            location: {'lat': 45.8240378, 'lng': 16.004482},
+
+        },
+        {
             name: "VUUMC, Amsterdam, The Netherlands",
             location: {'lat': 52.3367691, 'lng': 4.8593454}
         },
