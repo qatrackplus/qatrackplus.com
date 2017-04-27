@@ -45,6 +45,10 @@ $(function(){
             location: {'lat': 41.4013527, 'lng': 2.1421196}
         },
         {
+            name: "Juravinski Cancer Centre, Hamilton, Canada",
+            location: {'lat': 43.239889, 'lng': -79.84836}
+        },
+        {
             name: "Northwestern Medicine Chicago Proton Center, USA",
             location: {'lat': 41.8047425, 'lng': -88.1604582}
         },
