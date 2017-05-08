@@ -37,6 +37,10 @@ $(function(){
             location: {'lat': 43.4564538, 'lng': -80.5123481}
         },
         {
+            name: "Hôpital Maisonneuve-Rosemont, Montréal, Canada",
+            location: {'lat': 45.5736275, 'lng': -73.5609442}
+        },
+        {
             name: "Hospital General Universitario Gregorio Marañón, Madrid, Spain",
             location: {'lat': 40.41925, 'lng': -3.67176}
         },
