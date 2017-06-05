@@ -37,12 +37,20 @@ $(function(){
             location: {'lat': 43.4564538, 'lng': -80.5123481}
         },
         {
+            name: "Hôpital Maisonneuve-Rosemont, Montréal, Canada",
+            location: {'lat': 45.5736275, 'lng': -73.5609442}
+        },
+        {
             name: "Hospital General Universitario Gregorio Marañón, Madrid, Spain",
             location: {'lat': 40.41925, 'lng': -3.67176}
         },
         {
             name: "Hospital Plató, Barcelona, Spain",
             location: {'lat': 41.4013527, 'lng': 2.1421196}
+        },
+        {
+            name: "Juravinski Cancer Centre, Hamilton, Canada",
+            location: {'lat': 43.239889, 'lng': -79.84836}
         },
         {
             name: "Northwestern Medicine Chicago Proton Center, USA",
@@ -63,6 +71,10 @@ $(function(){
         {
             name: "Saskatoon Cancer Center, Saskatoon, Canada",
             location: {'lat': 52.13277069999999, 'lng': -106.6405069}
+        },
+        {
+            name: "Saint John Regional Hospital, Dept. of Radiation Oncology Saint John, New Brunswick, Canada",
+            location: {'lat': 45.302908, 'lng': -66.0876756}
         },
         {
             name: "South West Sydney Cancer Service, Australia",
@@ -95,6 +107,11 @@ $(function(){
         {
             name: 'University Hospital - St Ivan Rilski, Sofia, Bulgaria',
             location: {'lat': 42.682311, 'lng': 23.3003315},
+        },
+        {
+            name: 'University Hospital Centre Zagreb, Zagreb, Croatia',
+            location: {'lat': 45.8240378, 'lng': 16.004482},
+
         },
         {
             name: "VUUMC, Amsterdam, The Netherlands",
