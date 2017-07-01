@@ -9,6 +9,10 @@ $(function(){
             location: {'lat': 53.9135106, 'lng': -122.7660518}
         },
         {
+            name: "BC Cancer Agency, Nuclear Medicine Dept, Vancouver, B.C., Canada",
+            location: {'lat': 49.262338, 'lng': -123.1216676}
+        },
+        {
             name: "Auckland Radiation Oncology, Auckland, New Zealand",
             location: {'lat': -36.8733367, 'lng': 174.7699663}
         },
