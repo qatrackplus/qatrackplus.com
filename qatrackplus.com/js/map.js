@@ -61,6 +61,10 @@ $(function(){
             location: {'lat': 43.239889, 'lng': -79.84836}
         },
         {
+            name: "Kathleen Kilgour Centre, Tauranga, New Zealand",
+            location: {'lat': -37.708459, 'lng': 176.1443569}
+        },
+        {
             name: "Northwestern Medicine Chicago Proton Center, USA",
             location: {'lat': 41.8047425, 'lng': -88.1604582}
         },
