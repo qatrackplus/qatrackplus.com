@@ -57,8 +57,16 @@ $(function(){
             location: {'lat': 41.4013527, 'lng': 2.1421196}
         },
         {
+            name: "Institut de Cancérologie de Bourgogne, Dijon, France",
+            location: {'lat': 47.3126608, 'lng': 5.0418624}
+        },
+        {
             name: "Juravinski Cancer Centre, Hamilton, Canada",
             location: {'lat': 43.239889, 'lng': -79.84836}
+        },
+        {
+            name: "Kathleen Kilgour Centre, Tauranga, New Zealand",
+            location: {'lat': -37.708459, 'lng': 176.1443569}
         },
         {
             name: "Northwestern Medicine Chicago Proton Center, USA",
