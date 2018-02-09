@@ -117,18 +117,23 @@ $(function(){
             location: {'lat': 51.0486151, 'lng': -114.0708459}
         },
         {
+            name: 'Uf Health Proton Therapy Institute, Jacksonville, FL, USA',
+            location: {'lat': 30.3491945, 'lng': -81.6651222}
+
+        },
+        {
             name: 'University Hospital - St Ivan Rilski, Sofia, Bulgaria',
-            location: {'lat': 42.682311, 'lng': 23.3003315},
+            location: {'lat': 42.682311, 'lng': 23.3003315}
         },
         {
             name: 'University Hospital Centre Zagreb, Zagreb, Croatia',
-            location: {'lat': 45.8240378, 'lng': 16.004482},
+            location: {'lat': 45.8240378, 'lng': 16.004482}
 
         },
         {
             name: "VUUMC, Amsterdam, The Netherlands",
             location: {'lat': 52.3367691, 'lng': 4.8593454}
-        },
+        }
     ];
 
     var map = L.map('map').setView([45.4215296, -75.6971930999999951], 2);
