@@ -21,6 +21,10 @@ $(function(){
             location: {'lat': -36.8733367, 'lng': 174.7699663}
         },
         {
+            name: "Centre Intégré de Cancérologie de Laval, Laval, Canada",
+            location: {'lat': 45.6017659, 'lng': -73.7088927}
+        },
+        {
             name: "CHUM, Montreal, Canada",
             location: {'lat': 45.5016889, 'lng': -73.567256}
         },
@@ -43,6 +47,14 @@ $(function(){
         {
             name: "Grand River Regional Cancer Centre, Kitchener, Canada",
             location: {'lat': 43.4564538, 'lng': -80.5123481}
+        },
+        {
+            name: "Gatineau Hospital Cancer Centre",
+            location: {'lat': 45.4926766, 'lng': -75.5884803}
+        },
+        {
+            name: "Hospital Charles-Le Moyne, Longueuil, Canada",
+            location: {'lat': 45.4969984, 'lng': -73.4859921}
         },
         {
             name: "Hôpital Maisonneuve-Rosemont, Montréal, Canada",
