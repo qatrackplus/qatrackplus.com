@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>QATrack+ - A Machine QC Database for Radiation Therapy Clinics</title>
+  <title>QATrack+ - A Machine QC Database for Radiation Therapy & Diagnostic Imaging Clinics</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="utf-8">
   <meta name="description" content="QATrack+ project home page">
@@ -54,7 +54,8 @@
           <li><a title="Check out the QATrack+ features" href="#features" class=" scroll brand-4">Features</a></li>
           <li><a title="Who's Using QATrack+" href="#whos-using" class="scroll brand-3">Who&rsquo;s Using It</a></li>
           <li><a title="Getting Started" href="#getting-started" class="scroll brand-3">Getting Started</a></li>
-          <li><a title="Contribute to QATrack+" href="#contribute" class="scroll fadeto brand-4"> Contribute</a></li>
+          <!--li><a title="Contribute to QATrack+" href="#contribute" class="scroll fadeto brand-4"> Contribute</a></li-->
+          <li><a title="QATrack+ Documentation" href="http://docs.qatrackplus.com/en/latest/" class=""> Documentation</a></li-->
           <li><a title="Latest news about QATrack+" href="news.html" class="brand-2">News</a></li>
           <li><a title="Get in touch!" href="#contact" class="scroll brand-2">Contact &amp; Support</a></li>
         </ul>
@@ -68,7 +69,7 @@
       <!--h2 class="page-headline large">Web Based Radiation Therapy Machine QC</h2-->
       <!--h2 class="page-headline large">QC for Linac&rsquo;s, Imaging, Brachy &amp; More</h2-->
       <h1 class="page-headline ">QATrack+</h1>
-      <h3 class="text-center" style="margin-top:15px;">A Free Machine QC Database for Radiation Therapy Clinics</h4>
+      <h3 class="text-center" style="margin-top:15px;">A Free Machine QC Database for Radiation Therapy & Diagnostic Imaging Clinics</h4>
     </div>
     <div class="row inner-page">
       <div class="col-md-8 col-md-push-4 lazy-container">
@@ -78,9 +79,9 @@
         <ul class="big-list">
           <li><i class="fa fa-dollar"></i> Free/Open Source</li>
           <li><i class="fa fa-edit"></i> Easy QC Data Entry</li>
+          <li><i class="fa fa-wrench"></i> Service Event Log</li>
           <li><i class="fa fa-eye"></i> Quick Data Review</li>
           <li><i class="fa fa-calendar"></i> Scheduling </li>
-          <li><i class="fa fa-globe"></i> Web Based</li>
           <li><i class="fa fa-cog"></i> Configurable</li>
         </ul>
         <br />
@@ -115,12 +116,14 @@
         <p class="lead">QATrack+ has many features to make your life easier:</p>
         <ul class="list-wide">
           <li><i class="fa fa-check"></i> Replace paper forms &amp; spreadsheets with a unified system </li>
+          <li><i class="fa fa-check"></i> Completely customizable. You define the tests you want to perform</li>
+          <li><i class="fa fa-check"></i> Starshot, Picket Fence and other image analysis</li>
+          <li><i class="fa fa-check"></i> Integrated machine service log for tracking service events, downtime and parts inventory</li>
           <li><i class="fa fa-check"></i> QC test types including numerical, boolean, calculated, file upload &amp; analysis, and more </li>
           <li><i class="fa fa-check"></i> Multiple user groups (Physicists, Therapists, etc.) and group specific permissions via a configurable authorization system</li>
           <li><i class="fa fa-check"></i> Built in review &amp; approval functionality for QC data</li>
           <li><i class="fa fa-check"></i> Fast and easy data trending</li>
           <li><i class="fa fa-check"></i> Scheduling system to keep on top of your QC program.</li>
-          <li><i class="fa fa-check"></i> Did we mention it&lsquo;s free?.</li>
         </ul>
       </div>
     </div>
@@ -143,8 +146,8 @@
         <li>
           <h3><i class="fa fa-heart"></i> Completely Free</h3>
           <p>
-          <strong>QATrack+</strong> is open source software that you are free to download and use in your clinic. There is no initial licensing costs and upgrades are free for ever.  Community support is provided via <a href="https://groups.google.com/forum/#!forum/qatrack" title="QATrack+ Support Forum">an online forum</a>. Development &amp; and bug reports
-          can be tracked via the <a href="https://bitbucket.org/tohccmedphys/qatrackplus/">online source code repository</a>.
+          <strong>QATrack+</strong> is free and open source software. Community support is provided via <a href="https://groups.google.com/forum/#!forum/qatrack" title="QATrack+ Support Forum">an online forum</a>. Source code &amp; issue tracking
+          are available on <a href="https://bitbucket.org/tohccmedphys/qatrackplus/">BitBucket</a>.  Professional support and fully managed cloud instances of QATrack+ are also available from <a href="https://multileaf.ca/">Multi Leaf Consulting</a>
         </p>
         </li>
       </ul>
@@ -176,6 +179,7 @@
                     <li><i class="fa fa-globe"></i> CHUM,<br/> Montreal, <br/>Canada</li>
                     <li><i class="fa fa-globe"></i> CHU de Liège,<br/> Liège, <br/>Belgium</li>
                     <li><i class="fa fa-globe"></i> CHU de Sherbrooke,<br/> Sherbrooke, <br/>Canada</li>
+                    <li><i class="fa fa-globe"></i> Cross Cancer Institute,<br/> Edmonton, Canada</li>
                     <li><i class="fa fa-globe"></i> Dr. H. Bliss Murphy Cancer Centre, Newfoundland, Canada</li>
                     <li><i class="fa fa-globe"></i> Durham Regional Cancer Centre, Oshawa, Canada</li>
                     <li><i class="fa fa-globe"></i> Grand River Regional Cancer Centre, Kitchener, Canada</li>
@@ -205,7 +209,7 @@
               </p>
               <p class="text-center">
 
-                  <a href="mailto:randle.taylor@gmail.com" title="Send an email to let us know about your centre's use of QATrack+" class="text-danger">Get in touch</a> to
+                  <a href="mailto:randy@multileaf.ca" title="Send an email to let us know about your centre's use of QATrack+" class="text-danger">Get in touch</a> to
                   have your centre added to this list!
               </p>
             </div>
@@ -220,15 +224,30 @@
                 <img class="figurette lazy" alt="Original vectors" src="img/pixel.png" data-original="img/responsive-vectors.png" />
             </div>
             <div class="col-md-6">
-                <h3>Technical Requirements</h3>
+                <h3>QATrack+ in Your Clinic</h3>
                 <p class="">
-                    QATrack+ is a cross platform server application and requires either a Linux, Windows or Mac server and either a PostgreSQL, MySQL, or Microsoft SQL database (MSSQL).
+                  QATrack+ can be self hosted within your clinic, or, with a fully managed and supported cloud installation from <a href="https://multileaf.ca">Multi Leaf</a>
                 </p>
+
+                <h3>Self Hosted</h3>
                 <p class="">
-                    QATrack+ can be accessed via <i class="fa fa-firefox"></i>Firefox, Chrome, IE8+, Safari and other modern browsers.
+
+                  QATrack+ is a cross platform server application and requires
+                  either a Linux or Windows server and either a PostgreSQL,
+                  MySQL, or Microsoft SQL Server database (MSSQL).  QATrack+
+                  can be accessed via <i class="fa fa-firefox"></i>Firefox,
+                  Chrome, IE, Safari and other modern browsers.  Detailed
+                  instructions for downloading, installing &amp; deploying the
+                  software are available on the <a
+                  href="http://docs.qatrackplus.com/en/latest/" title="QATrack+
+                documentation">QATrack+ Documentation</a>
+
                 </p>
-                <h3>Installing &amp; Deploy QATrack+</h3>
-                <p>Detailed instructions for downloading, installing &amp; deploying the software are available on the <a href="https://bitbucket.org/tohccmedphys/qatrackplus/wiki/" title="QATrack+ wiki">QATrack+ Wiki</a></p>
+                <h3>Cloud Hosting & Commercial Support</h3>
+                <p class="">
+                  <a href="https://multileaf.ca">Multi Leaf Consulting</a> offers paid support for self hosted installations as well as
+                  fully managed and supported cloud installations of QATrack+.
+                </p>
             </div>
         </div>  <!-- /vectors -->
 
@@ -254,7 +273,6 @@
         <ul>
             <li><i class="fa fa-check"></i> Write some code for some missing functionality and <a href="https://bitbucket.org/tohccmedphys/qatrackplus/issues">contribute it back to the project</a></li>
             <li><i class="fa fa-check"></i> Report bugs and request features with our <a href="https://bitbucket.org/tohccmedphys/qatrackplus/issues">issue tracker</a></li>
-            <li><i class="fa fa-check"></i> Help document the project on our <a href="https://bitbucket.org/tohccmedphys/qatrackplus/wiki">wiki</a></li>
             <li><i class="fa fa-check"></i> Participate and answer questions in our <a class="" href="https://groups.google.com/forum/#!forum/qatrack" title="QATrack+ Support Forum"> online support forum</a></li>
         </ul>
 
@@ -313,7 +331,7 @@
                 Documentation:
             </div>
             <div class="col-md-6">
-                <a class="btn btn-primary" href="https://bitbucket.org/tohccmedphys/qatrackplus/wiki" title="QATrack+ Documentation"><i class="fa fa-book"></i> &nbsp;&nbsp; QATrack+ Wiki</a>
+                <a class="btn btn-primary" href="http://docs.qatrackplus.com" title="QATrack+ Documentation"><i class="fa fa-book"></i> &nbsp;&nbsp; QATrack+ Documentation</a>
             </div>
         </div>
         <div class="row">
@@ -337,7 +355,7 @@
                 Other Inquiries:
             </div>
             <div class="col-md-6">
-                <a class="btn btn-primary" href="mailto:randle.taylor@gmail.com" title="Email the QATrack+ lead developer"><i class="fa fa-envelope"></i> &nbsp; &nbsp; randle.taylor@gmail.com</a>
+                <a class="btn btn-primary" href="mailto:randy@multileaf.ca" title="Email the QATrack+ lead developer"><i class="fa fa-envelope"></i> &nbsp; &nbsp; randy@multileaf.ca</a>
             </div>
         </div>
       </div>
@@ -369,7 +387,7 @@
       <div class="col-md-6 social">
         <a href="https://twitter.com/qatrackplus"><i class="fa fa-twitter"></i></a>
         <a href="https://bitbucket.org/tohccmedphys/qatrackplus"><i class="fa fa-bitbucket-square"></i></a>
-        <a href="mailto:randle.taylor@gmail.com"><i class="fa fa-envelope"></i></a>
+        <a href="mailto:randy@multileaf.ca"><i class="fa fa-envelope"></i></a>
       </div>
       <div class="col-md-6 text-right copyright">
         &copy; 2014 <a href="http://qatrackplus.com" title="QATrack+ website">qatrackplus.com</a> | all rights reserved | <a href="#top" title="Go to top" class="scroll">To top <i class="fa fa-caret-up"></i></a>

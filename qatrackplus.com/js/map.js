@@ -5,6 +5,10 @@ $(function(){
             location: {'lat': 50.4452112, 'lng': -104.6188944}
         },
         {
+            name: "Auckland Radiation Oncology, Auckland, New Zealand",
+            location: {'lat': -36.8733367, 'lng': 174.7699663}
+        },
+        {
             name: "BC Cancer Agency, Centre for the North, Prince George, B.C., Canada",
             location: {'lat': 53.9135106, 'lng': -122.7660518}
         },
@@ -17,10 +21,6 @@ $(function(){
             location: {'lat': 49.2620043, 'lng': -123.1192744}
         },
         {
-            name: "Auckland Radiation Oncology, Auckland, New Zealand",
-            location: {'lat': -36.8733367, 'lng': 174.7699663}
-        },
-        {
             name: "CHUM, Montreal, Canada",
             location: {'lat': 45.5016889, 'lng': -73.567256}
         },
@@ -31,6 +31,10 @@ $(function(){
         {
             name: "CHU de Sherbrooke, Sherbrooke, Canada",
             location: {'lat': 45.4488134, 'lng': -71.8708584}
+        },
+        {
+            name: "Cross Cancer Institute, Edmonton, Canada",
+            location: {'lat': 53.5182657, 'lng': -113.5332726}
         },
         {
             name: "Dr. H. Bliss Murphy Cancer Centre, Newfoundland, Canada",
