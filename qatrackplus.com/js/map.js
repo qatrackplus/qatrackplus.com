@@ -21,6 +21,14 @@ $(function(){
             location: {'lat': 49.2620043, 'lng': -123.1192744}
         },
         {
+            name: "Auckland Radiation Oncology, Auckland, New Zealand",
+            location: {'lat': -36.8733367, 'lng': 174.7699663}
+        },
+        {
+            name: "Centre Intégré de Cancérologie de Laval, Laval, Canada",
+            location: {'lat': 45.6017659, 'lng': -73.7088927}
+        },
+        {
             name: "CHUM, Montreal, Canada",
             location: {'lat': 45.5016889, 'lng': -73.567256}
         },
@@ -47,6 +55,14 @@ $(function(){
         {
             name: "Grand River Regional Cancer Centre, Kitchener, Canada",
             location: {'lat': 43.4564538, 'lng': -80.5123481}
+        },
+        {
+            name: "Gatineau Hospital Cancer Centre",
+            location: {'lat': 45.4926766, 'lng': -75.5884803}
+        },
+        {
+            name: "Hospital Charles-Le Moyne, Longueuil, Canada",
+            location: {'lat': 45.4969984, 'lng': -73.4859921}
         },
         {
             name: "Hôpital Maisonneuve-Rosemont, Montréal, Canada",
@@ -125,18 +141,23 @@ $(function(){
             location: {'lat': 51.0486151, 'lng': -114.0708459}
         },
         {
+            name: 'Uf Health Proton Therapy Institute, Jacksonville, FL, USA',
+            location: {'lat': 30.3491945, 'lng': -81.6651222}
+
+        },
+        {
             name: 'University Hospital - St Ivan Rilski, Sofia, Bulgaria',
-            location: {'lat': 42.682311, 'lng': 23.3003315},
+            location: {'lat': 42.682311, 'lng': 23.3003315}
         },
         {
             name: 'University Hospital Centre Zagreb, Zagreb, Croatia',
-            location: {'lat': 45.8240378, 'lng': 16.004482},
+            location: {'lat': 45.8240378, 'lng': 16.004482}
 
         },
         {
             name: "VUUMC, Amsterdam, The Netherlands",
             location: {'lat': 52.3367691, 'lng': 4.8593454}
-        },
+        }
     ];
 
     var map = L.map('map').setView([45.4215296, -75.6971930999999951], 2);
