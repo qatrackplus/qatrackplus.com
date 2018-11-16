@@ -105,6 +105,10 @@ $(function(){
             location: {'lat': 51.1785487, 'lng': -0.7192659}
         },
         {
+            name: "Royal Sussex County Hospital, Brighton, United Kingdom",
+            location: {'lat': 50.8180561, 'lng': -0.1191133}
+        },
+        {
             name: "Saskatoon Cancer Center, Saskatoon, Canada",
             location: {'lat': 52.13277069999999, 'lng': -106.6405069}
         },
