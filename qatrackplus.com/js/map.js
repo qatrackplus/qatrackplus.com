@@ -9,6 +9,10 @@ $(function(){
             location: {'lat': -36.8733367, 'lng': 174.7699663}
         },
         {
+            name: "BC Cancer Agency, Abbotsford Centre, Abbotsford, B.C., Canada",
+            location: {'lat': 49.0368661, 'lng': -122.3147102}
+        },
+        {
             name: "BC Cancer Agency, Centre for the North, Prince George, B.C., Canada",
             location: {'lat': 53.9135106, 'lng': -122.7660518}
         },
@@ -159,8 +163,8 @@ $(function(){
 
         },
         {
-            name: "VUUMC, Amsterdam, The Netherlands",
-            location: {'lat': 52.3367691, 'lng': 4.8593454}
+            name: "Velindre Cancer Centre, Cardiff, Wales",
+            location: {'lat': 51.5162452, 'lng': -3.2306402}
         }
     ];
 
