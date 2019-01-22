@@ -57,6 +57,10 @@ $(function(){
             location: {'lat': 43.9003755, 'lng': -78.8682023}
         },
         {
+            name: "Farrer Park Hospital, Singapore",
+            location: {'lat': 1.31256, 'lng': 103.8517084}
+        },
+        {
             name: "Grand River Regional Cancer Centre, Kitchener, Canada",
             location: {'lat': 43.4564538, 'lng': -80.5123481}
         },
