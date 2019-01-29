@@ -85,6 +85,10 @@ $(function(){
             location: {'lat': 41.4013527, 'lng': 2.1421196}
         },
         {
+            name: "Hospital Universitario Virgen de las Nieves, Granada, Spain",
+            location: {'lat': 37.1886676, 'lng': -3.6125441}
+        },
+        {
             name: "Institut de Cancérologie de Bourgogne, Dijon, France",
             location: {'lat': 47.3126608, 'lng': 5.0418624}
         },
@@ -95,6 +99,10 @@ $(function(){
         {
             name: "Kathleen Kilgour Centre, Tauranga, New Zealand",
             location: {'lat': -37.708459, 'lng': 176.1443569}
+        },
+        {
+            name: "NHS Tayside, Dundee, UK",
+            location: {'lat': 56.4636063, 'lng': -3.0397591}
         },
         {
             name: "Northwestern Medicine Chicago Proton Center, USA",
