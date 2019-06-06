@@ -69,6 +69,10 @@ $(function(){
             location: {'lat': 45.4926766, 'lng': -75.5884803}
         },
         {
+            name: "Harley St Clinic, HCA Healthcare, Radiotherapy Dpt. London, UK",
+            location: {'lat': 51.5199992, 'lng': -0.147719}
+        },
+        {
             name: "Hospital Charles-Le Moyne, Longueuil, Canada",
             location: {'lat': 45.4969984, 'lng': -73.4859921}
         },
