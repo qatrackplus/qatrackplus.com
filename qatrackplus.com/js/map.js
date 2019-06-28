@@ -121,6 +121,10 @@ $(function(){
             location: {'lat': 17.7366519, 'lng': 83.3053694}
         },
         {
+            name: "The Royal Marsden NHS Foundation Trust, London, United Kingdom",
+            location: {'lat': 51.4908705, 'lng': -0.1750007}
+        },
+        {
             name: "Royal Surrey County Hospital, Guildford, United Kingdom",
             location: {'lat': 51.1785487, 'lng': -0.7192659}
         },
