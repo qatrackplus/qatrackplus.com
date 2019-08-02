@@ -183,6 +183,11 @@ $(function(){
 
         },
         {
+            name: 'University of Vermont Medical Center',
+            location: {'lat': 44.4787572, 'lng': -73.1962002}
+
+        },
+        {
             name: "Velindre Cancer Centre, Cardiff, Wales",
             location: {'lat': 51.5162452, 'lng': -3.2306402}
         }
