@@ -194,6 +194,10 @@ $(function(){
         {
             name: "Velindre Cancer Centre, Cardiff, Wales",
             location: {'lat': 51.5162452, 'lng': -3.2306402}
+        },
+        {
+            name: "Virgen Macarena Hospital, Seville, Spain",
+            location: {'lat': 37.4065862, 'lng': -5.9890019}
         }
     ];
 
