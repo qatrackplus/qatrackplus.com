@@ -198,6 +198,10 @@ $(function(){
         {
             name: "Virgen Macarena Hospital, Seville, Spain",
             location: {'lat': 37.4065862, 'lng': -5.9890019}
+        },
+        {
+            name: "Zhengzhou University Aff. No. 1 Hosp, ZhengZhou City, He Nan Province, China",
+            location: {'lat': 34.752941, 'lng': 113.64266}
         }
     ];
 
