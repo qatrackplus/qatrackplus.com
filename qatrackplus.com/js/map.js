@@ -1,6 +1,10 @@
 $(function(){
     var locs = [
         {
+            name: "Ali Osman Sönmez Oncology Hospital, Bursa, Turkey",
+            location: {'lat': 40.2050211, 'lng': 29.0354323}
+        },
+        {
             name: "Allan Blair Cancer Centre, Regina, Canada",
             location: {'lat': 50.4452112, 'lng': -104.6188944}
         },
