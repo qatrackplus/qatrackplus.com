@@ -41,6 +41,10 @@ $(function(){
             location: {'lat': 50.5744825, 'lng': 5.5696974}
         },
         {
+            name: "CHU de Quèbec, Quèbec, Canada",
+            location: {'lat': 46.8301795, 'lng': -71.2466938}
+        },
+        {
             name: "CHU de Sherbrooke, Sherbrooke, Canada",
             location: {'lat': 45.4488134, 'lng': -71.8708584}
         },
