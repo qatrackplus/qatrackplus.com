@@ -113,6 +113,10 @@ $(function(){
             location: {'lat': -37.708459, 'lng': 176.1443569}
         },
         {
+            name: "King Fahad Specialist Hospital, Dammam, Saudi Arabia",
+            location: {'lat': 26.4129069, 'lng': 50.0986192}
+        },
+        {
             name: "NHS Tayside, Dundee, UK",
             location: {'lat': 56.4636063, 'lng': -3.0397591}
         },
