@@ -105,6 +105,10 @@ $(function(){
             location: {'lat': 47.3126608, 'lng': 5.0418624}
         },
         {
+            name: "Institut Jules Bordet, Brussels, Belgium",
+            location: {'lat': 50.833366, 'lng': 4.3448789}
+        },
+        {
             name: "Juravinski Cancer Centre, Hamilton, Canada",
             location: {'lat': 43.239889, 'lng': -79.84836}
         },
