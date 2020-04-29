@@ -129,6 +129,10 @@ $(function(){
             location: {'lat': 41.8047425, 'lng': -88.1604582}
         },
         {
+            name: "Odette Cancer Centre, Sunnybrook, Toronto, Canada",
+            location: {'lat': 43.653226, 'lng': -79.3831843}
+        },
+        {
             name: "PEI Cancer Treatment Centre, Charlottetown, Canada",
             location: {'lat': 46.23824, 'lng': -63.13107040000001}
         },
@@ -161,16 +165,16 @@ $(function(){
             location: {'lat': 45.302908, 'lng': -66.0876756}
         },
         {
+            name: "Sociedad de Lucha Contra el Cáncer SOLCA, Guayaquil, Ecuador",
+            location: {'lat': -2.1738805, 'lng': -79.8842409}
+        },
+        {
             name: "South West Sydney Cancer Service, Australia",
             location: {'lat': -33.917507, 'lng': 150.920662}
         },
         {
             name: "St Bartholomews Radiotherapy Dpt, London, UK",
             location: {'lat': 51.5073509, 'lng': -0.1277583}
-        },
-        {
-            name: "Odette Cancer Centre, Sunnybrook, Toronto, Canada",
-            location: {'lat': 43.653226, 'lng': -79.3831843}
         },
         {
             name: "The Cancer Centre Eastern Caribbean, St John's, Antigua",
