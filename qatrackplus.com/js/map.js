@@ -230,11 +230,9 @@ $(function(){
     ];
 
     var map = L.map('map').setView([45.4215296, -75.6971930999999951], 2);
-    L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
-        attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
-        maxZoom: 18,
-        id: 'randlet.p4opmmni',
-        accessToken: 'pk.eyJ1IjoicmFuZGxldCIsImEiOiJjaWtqdHBpbDcwOHAydjBrbWI2bGl4NGdpIn0.ikjHyvgtmnT5ky5aOgM8rg'
+    L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+        maxZoom: 18
     }).addTo(map);
     var markers = [];
     $.each(locs, function(idx, loc){
