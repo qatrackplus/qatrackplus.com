@@ -37,6 +37,10 @@ $(function(){
             location: {'lat': 45.6017659, 'lng': -73.7088927}
         },
         {
+            name: "Centre Oscar Lambret, Lille, France",
+            location: {'lat': 50.6124605, 'lng': 3.0303796}
+        },
+        {
             name: "CHUM, Montreal, Canada",
             location: {'lat': 45.5016889, 'lng': -73.567256}
         },
