@@ -153,6 +153,10 @@ $(function(){
             location: {'lat': 51.4908705, 'lng': -0.1750007}
         },
         {
+            name: "Royal Preston Hospital, NHS Foundation Trust, Preston, United Kingdom",
+            location: {'lat': 53.7903928, 'lng': -2.7091474}
+        },
+        {
             name: "Royal Surrey County Hospital, Guildford, United Kingdom",
             location: {'lat': 51.1785487, 'lng': -0.7192659}
         },
