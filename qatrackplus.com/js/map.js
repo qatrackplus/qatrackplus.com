@@ -29,16 +29,16 @@ $(function(){
             location: {'lat': 49.2620043, 'lng': -123.1192744}
         },
         {
-            name: "Auckland Radiation Oncology, Auckland, New Zealand",
-            location: {'lat': -36.8733367, 'lng': 174.7699663}
-        },
-        {
             name: "Centre Intégré de Cancérologie de Laval, Laval, Canada",
             location: {'lat': 45.6017659, 'lng': -73.7088927}
         },
         {
             name: "Centre Oscar Lambret, Lille, France",
             location: {'lat': 50.6124605, 'lng': 3.0303796}
+        },
+        {
+            name: "Centro Oncológico Anna Rocca de Bonatti,Curuzú Cuatiá, Corrientes, Argentina",
+            location: {'lat': -29.7906672, 'lng': -58.0656747}
         },
         {
             name: "CHUM, Montreal, Canada",
@@ -234,7 +234,7 @@ $(function(){
     ];
 
     var map = L.map('map').setView([45.4215296, -75.6971930999999951], 2);
-    L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png', {
+    L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer/tile/{z}/{y}/{x}', {
         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
         maxZoom: 18
     }).addTo(map);
