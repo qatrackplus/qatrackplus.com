@@ -109,6 +109,10 @@ $(function(){
             location: {'lat': 47.3126608, 'lng': 5.0418624}
         },
         {
+            name: "Institut de Cancérologie de Brétillien, Rennes, France",
+            location: {'lat': 48.136799, 'lng': -1.672058}
+        },
+        {
             name: "Institut Jules Bordet, Brussels, Belgium",
             location: {'lat': 50.833366, 'lng': 4.3448789}
         },
