@@ -29,6 +29,10 @@ $(function(){
             location: {'lat': 49.2620043, 'lng': -123.1192744}
         },
         {
+            name: "Central Coast Cancer Centre, Gosford, NSW, Australia",
+            location: {'lat': -33.4202961, 'lng': 151.3372165}
+        },
+        {
             name: "Centre Intégré de Cancérologie de Laval, Laval, Canada",
             location: {'lat': 45.6017659, 'lng': -73.7088927}
         },
