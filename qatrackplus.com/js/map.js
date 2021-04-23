@@ -89,6 +89,10 @@ $(function(){
             location: {'lat': 51.5199992, 'lng': -0.147719}
         },
         {
+            name: "Health Sciences North, Sudbury, Ontario, Canada",
+            location: {'lat': 46.4671897, 'lng': -80.998089}
+        },
+        {
             name: "Hospital Charles-Le Moyne, Longueuil, Canada",
             location: {'lat': 45.4969984, 'lng': -73.4859921}
         },
