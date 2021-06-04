@@ -121,6 +121,10 @@ $(function(){
             location: {'lat': 48.136799, 'lng': -1.672058}
         },
         {
+            name: "Instituto de Radiologia - Hospital das Clínicas da Faculdade de Medicina da Universidade de São Paulo, São Paulo, Brazil",
+            location: {'lat': -23.5577288, 'lng': -46.6724096}
+        },
+        {
             name: "Institut Jules Bordet, Brussels, Belgium",
             location: {'lat': 50.833366, 'lng': 4.3448789}
         },
