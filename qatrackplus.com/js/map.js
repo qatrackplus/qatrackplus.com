@@ -201,6 +201,10 @@ $(function(){
             location: {'lat': 51.5073509, 'lng': -0.1277583}
         },
         {
+            name: "Sunrise Centre, Royal Cornwall Hospitals Trust, Truro, UK",
+            location: {'lat': 50.2668579, 'lng': -5.0945027}
+        },
+        {
             name: "The Cancer Centre Eastern Caribbean, St John's, Antigua",
             location: {'lat': 17.1274104, 'lng': -61.84677199999999}
         },
