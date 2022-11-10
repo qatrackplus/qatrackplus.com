@@ -33,6 +33,10 @@ $(function(){
             location: {'lat': -33.4202961, 'lng': 151.3372165}
         },
         {
+            name: "Centro de Oncologia Campinas, Campinas, São Paulo, Brazil",
+            location: {'lat': -22.8270015, 'lng': -47.0786005}
+        },
+        {
             name: "Centre Intégré de Cancérologie de Laval, Laval, Canada",
             location: {'lat': 45.6017659, 'lng': -73.7088927}
         },
