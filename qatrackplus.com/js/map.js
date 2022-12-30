@@ -81,6 +81,10 @@ $(function(){
             location: {'lat': 1.31256, 'lng': 103.8517084}
         },
         {
+            name: "The First Affiliated Hospital of Xiamen University",
+            location: {'lat': 24.4498589, 'lng': 118.0864216}
+        },
+        {
             name: "Grand River Regional Cancer Centre, Kitchener, Canada",
             location: {'lat': 43.4564538, 'lng': -80.5123481}
         },
