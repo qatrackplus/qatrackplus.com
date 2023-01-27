@@ -29,6 +29,10 @@ $(function(){
             location: {'lat': 49.2620043, 'lng': -123.1192744}
         },
         {
+            name: "Bradford Royal Infirmary",
+            location: {'lat': 53.8066774, 'lng': -1.8011412}
+        },
+        {
             name: "Central Coast Cancer Centre, Gosford, NSW, Australia",
             location: {'lat': -33.4202961, 'lng': 151.3372165}
         },
