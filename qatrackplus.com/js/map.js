@@ -161,6 +161,10 @@ $(function(){
             location: {'lat': 41.8047425, 'lng': -88.1604582}
         },
         {
+            name: "Nový Jičín AGEL Hospital, Dept. Radiotherapy, Nový Jičín, Czech Republic",
+            location: {'lat': 49.590497, 'lng': 18.0085403}
+        },
+        {
             name: "Odette Cancer Centre, Sunnybrook, Toronto, Canada",
             location: {'lat': 43.653226, 'lng': -79.3831843}
         },
