@@ -69,6 +69,10 @@ $(function(){
             location: {'lat': 45.4488134, 'lng': -71.8708584}
         },
         {
+            name: "Chris O’Brien Lifehouse, Sydney, Australia",
+            location: {'lat': -33.890682, 'lng': 151.179653}
+        },
+        {
             name: "Cross Cancer Institute, Edmonton, Canada",
             location: {'lat': 53.5182657, 'lng': -113.5332726}
         },
