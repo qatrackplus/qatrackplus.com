@@ -129,6 +129,10 @@ $(function(){
             location: {'lat': 37.1886676, 'lng': -3.6125441}
         },
         {
+            name: "Hospital Universitario de Gran Canaria Dr. Negrín, Las Palmas, Spain",
+            location: {'lat': 28.1205272, 'lng': -15.4470446}
+        },
+        {
             name: "Institut de Cancérologie de Bourgogne, Dijon, France",
             location: {'lat': 47.3126608, 'lng': 5.0418624}
         },
