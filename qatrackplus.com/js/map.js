@@ -73,6 +73,10 @@ $(function(){
             location: {'lat': -33.890682, 'lng': 151.179653}
         },
         {
+            name: "Churchill Hospital, Oxford University Hospitals (OUH) NHS Foundation Trust",
+            location: {'lat': 51.7497586, 'lng': -1.2186858}
+        },
+        {
             name: "Cross Cancer Institute, Edmonton, Canada",
             location: {'lat': 53.5182657, 'lng': -113.5332726}
         },
@@ -131,6 +135,10 @@ $(function(){
         {
             name: "Hospital Universitario de Gran Canaria Dr. Negrín, Las Palmas, Spain",
             location: {'lat': 28.1205272, 'lng': -15.4470446}
+        },
+        {
+            name: "Inkosi Albert Luthuli Central Hospital, Durban, South Africa",
+            location: {'lat': -29.8758349, 'lng': 30.9570373}
         },
         {
             name: "Institut de Cancérologie de Bourgogne, Dijon, France",
