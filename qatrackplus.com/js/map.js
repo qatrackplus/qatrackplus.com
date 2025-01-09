@@ -169,6 +169,10 @@ $(function(){
             location: {'lat': 26.4129069, 'lng': 50.0986192}
         },
         {
+            name: "Lo-Hsu Medical Foundation Lotung Poh-Ai Hospital, Taiwan",
+            location: {'lat': 24.6717669, 'lng': 121.77036}
+        },
+        {
             name: "NHS Tayside, Dundee, UK",
             location: {'lat': 56.4636063, 'lng': -3.0397591}
         },
