@@ -229,6 +229,10 @@ $(function(){
             location: {'lat': 45.302908, 'lng': -66.0876756}
         },
         {
+            name: "Settat International Center, Settat Morocco",
+            location: {'lat': 33.0165406, 'lng': -7.6280552}
+        },
+        {
             name: "Sociedad de Lucha Contra el Cáncer SOLCA, Guayaquil, Ecuador",
             location: {'lat': -2.1738805, 'lng': -79.8842409}
         },
